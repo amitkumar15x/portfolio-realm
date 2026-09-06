@@ -596,5 +596,11 @@ document.querySelectorAll('.gh-stat-img').forEach(img => {
   }).catch(()=>{ /* cross-origin or network issue: leave image as-is */ });
 });
 </script>
+<script>
+  window.va = window.va || function () {
+    (window.vaq = window.vaq || []).push(arguments);
+  };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
